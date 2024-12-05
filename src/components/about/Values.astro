@@ -3,29 +3,34 @@ const values = [
   [
     {
       ref: '01',
-      name: 'Excellence',
+      name: 'Najwyższa jakość',
       description:
         'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     },
     {
       ref: '02',
-      name: 'Innovation',
+      name: 'Innowacyjność rozwiązań',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Od lat rozwiązania open source wyznaczają kierunki w internecie. W zmieniającym się świecie nie warto inwestować w rozwiązania zamknięte, ' +
+        'które mogą stać się nieostępne w każdej chwili w zależności od zmian oferty u dostawcy. Najwięksi korzystają z open source, znosimy barierę dostępności FOSS ' +
+        'dla mniejszych firm, organizacji i osób działających indywidualnie',
+
     },
   ],
   [
     {
       ref: '03',
-      name: 'Teamwork',
+      name: 'Współpraca długoterminowa',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Nie zależy nam na jednorazowych, szybkich wdrożeniach, choć potrafimy je robić. Nie uciekamy do kolejnych projektów. Potrafimy słuchać, jesteśmy osobami uważnymi i cierpliwymi.' +
+        'W miarę rozwoju naszej oferty udostępniamy coraz to nowe rozwiązania, by to co dobre było dostępne.',
     },
     {
       ref: '04',
-      name: 'Respect',
+      name: 'Inkluzywność i szacunek',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+        'Nie stawiamy żadnych barier, również finansowych. Uważamy, że nasze rozwiązania powinny być dostępne dla każdego i jesteśmy skłonni uzgodnić ich finansowanie.' +
+        'Potrafimy współpracować z osobami nienormatywnymi, mamy doświadczenie w komunikacji bez przemocy i budowaniu społeczności. Wszyscy jesteśmy sobie równi.',
     },
   ],
 ];
@@ -34,7 +39,7 @@ const values = [
 <section class="py-16 sm:py-20">
   <div class="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
     <div class="flex flex-col gap-8 lg:gap-12">
-      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our Values</h2>
+      <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nasze wartości</h2>
       <div class="grid gap-8 lg:grid-cols-2">
         {
           values.map((column, index) => (
